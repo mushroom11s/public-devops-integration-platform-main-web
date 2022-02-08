@@ -28,7 +28,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ####  docker build ./ --rm -t com.mushroom11s.www/public-devops-integration-platform-main-web:0.0.1-SNAPSHOT
 
-#### docker run --name public-devops-integration-platform-main-web -d -p 8022:80  --restart unless-stopped com.mushroom11s.www/public-devops-integration-platform-main-web:0.0.1-SNAPSHOT
+#### docker run --name public-devops-integration-platform-main-web -d -p 8080:80  --restart unless-stopped com.mushroom11s.www/public-devops-integration-platform-main-web:0.0.1-SNAPSHOT
 
 ## 更新菜单
 菜单数据: public/menu.json
