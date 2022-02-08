@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <!-- Make sure mobile width is width of mobile viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Style sheets: Including Bootstrap and Font Awesome (svg icons) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <!--Scripts: including jQuery and bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <!--Add additional scripts here-->
+<!--    <script src="scripts/base.js?version=1"></script>-->
+    <script>
+        $(document).ready(function () {
+            $('.footer_fascade').mouseenter(
+                function () {
+                    $('.footer').css('transform', 'translateY(0px)');
+                }
+            );
+            $('.footer').mouseleave(function () {
+                $('.footer').css('transform', 'translateY(50px)');
+            });
+        });
+    </script>
+    <script src="scripts/minion.js?version=6"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <!--All page content goes here -->
+    <div class="mainContent" title="双击全屏，你竟然不知道 Σ（・□・；）">
+        <div id="band">
+        </div>
+        <div class="eye_wrapper" id="eye1">
+            <div class="eye_ring_metal"></div>
+            <div class="eye_ring"></div>
+            <div class="eye_pupil_wrapper">
+                <div class="eye_pupil_outer"></div>
+                <div class="eye_pupil_inner"></div>
+                <div class="eye_pupil_glow"></div>
+            </div>
+        </div>
+        <div class="eye_wrapper" id="eye2">
+            <div class="eye_ring_metal"></div>
+            <div class="eye_ring"></div>
+            <div class="eye_pupil_wrapper">
+                <div class="eye_pupil_outer"></div>
+                <div class="eye_pupil_inner"></div>
+                <div class="eye_pupil_glow"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer_fascade">
+</div>
+<div class="footer">
+    <span id="minion_options">
+      Stuart <input type="radio" id="stuart" style='margin-right:10px;'>
+      Kevin <input type="radio" id="kevin" style="margin-right:10px;">
+      Animate <input type="checkbox" id="animate_eyes">
+    </span>
+</div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+[
+  {
+    "group_title": "analyzer",
+    "submenu": [
+      {
+        "index": "infrastructure",
+        "title": "😶‍🌫️项目基础设施",
+        "items": [
+        ],
+        "submenu": [
+          {
+            "index": "通用工具",
+            "title": "通用工具",
+            "items": [
+              {
+                "index": "http://192.168.1.20:8000/crowd/console/login.action#/",
+                "title": "Crowd",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8001",
+                "title": "Jira",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8002",
+                "title": "Confluence",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8018",
+                "title": "RocketChat",
+                "isOpen": false
+              }
+            ],
+            "submenu": [
+            ]
+          },
+          {
+            "index": "开发工具",
+            "title": "开发工具",
+            "items": [
+              {
+                "index": "http://192.168.1.3",
+                "title": "ESXI",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8016",
+                "title": "Portainer",
+                "isOpen": false
+              },
+              {
+                "index": "http://192.168.1.20:8003",
+                "title": "Bitbucket",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8004",
+                "title": "Bamboo",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8005",
+                "title": "SonarQube",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8012",
+                "title": "Kibana",
+                "isOpen": false
+              },
+              {
+                "index": "http://192.168.1.20:8006",
+                "title": "Nexus",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8008/nacos",
+                "title": "Nacos",
+                "isOpen": true
+              },
+              {
+                "index": "http://192.168.1.20:8009",
+                "title": "Minio",
+                "isOpen": false
+              },
+              {
+                "index": "http://192.168.1.20:8015",
+                "title": "Mock 服务",
+                "isOpen": false
+              }
+            ],
+            "submenu": [
+            ]
+          }
+        ]
+      },
+      {
+        "index": "About_prod",
+        "title": "💻产品环境",
+        "items": [
+        ],
+        "submenu": [
+          {
+            "index": "dvs",
+            "title": "DVS",
+            "items": [
+              {
+                "index": "http://192.168.1.20:20080",
+                "title": "DVS-开发环境",
+                "isOpen": false
+              },
+              {
+                "index": "http://192.168.1.21:20080",
+                "title": "DVS-测试环境",
+                "isOpen": false
+              },
+              {
+                "index": "http://192.168.1.20:20000",
+                "title": "DVS-原型",
+                "isOpen": false
+              }
+            ],
+            "submenu": [
+            ]
+          }
+        ]
+      },
+      {
+        "index": "Tools",
+        "title": "🔧工具及其他",
+        "items": [
+        ],
+        "submenu": [
+          {
+            "index": "工具",
+            "title": "工具",
+            "items": [
+              {
+                "index": "https://fanyi.youdao.com/",
+                "title": "有道翻译",
+                "isOpen": false
+              },
+              {
+                "index": "https://json.cn",
+                "title": "JSON.cn",
+                "isOpen": false
+              },
+              {
+                "index": "https://juejin.cn/",
+                "title": "掘金",
+                "isOpen": false
+              },
+              {
+                "index": "https://www.xiusheji.com/p/links.html",
+                "title": "导航站",
+                "isOpen": false
+              },
+              {
+                "index": "https://cowtransfer.com/",
+                "title": "奶牛快传",
+                "isOpen": false
+              },
+              {
+                "index": "https://tool.lu/",
+                "title": "tool.lu",
+                "isOpen": false
+              }
+            ],
+            "submenu": [
+            ]
+          }
+        ]
+      }
+    ],
+    "items": [
+    ]
+  }
+]
